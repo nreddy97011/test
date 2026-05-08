@@ -131,4 +131,219 @@
   <button class="to-top" id="toTop" aria-label="Scroll to top">↑</button>
   <script src="script.js"></script>
 </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajat Viraasat | Indian Silver Heritage</title>
+    <meta
+      name="description"
+      content="Timeless Indian silver heritage presented through a modern minimal luxury design—discover craftsmanship, collections, and showroom experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader__ring"></div>
+      <p>Rajat Viraasat</p>
+    </div>
+
+    <header class="header" id="top">
+      <nav class="navbar glass">
+        <a href="#top" class="brand">Rajat Viraasat</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#heritage">Heritage</a></li>
+          <li><a href="#craft">Craftsmanship</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#showroom">Showroom</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero__slider" id="heroSlider">
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1800&q=80');"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=1800&q=80');"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1800&q=80');"></div>
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero-dots" aria-label="Hero slider controls">
+        <button class="hero-dot active" aria-label="Slide 1"></button>
+        <button class="hero-dot" aria-label="Slide 2"></button>
+        <button class="hero-dot" aria-label="Slide 3"></button>
+      </div>
+      <div class="hero__content fade-in">
+        <p class="eyebrow">Timeless Legacy of Indian Silver</p>
+        <h1>Heritage Refined Through Contemporary Luxury</h1>
+        <p>
+          Explore a curated world of handcrafted silver artistry, where ancestral skill,
+          cultural symbolism, and modern elegance exist in perfect harmony.
+        </p>
+        <a href="#collections" class="btn">Discover Collections</a>
+      </div>
+    </section>
+
+    <main>
+      <section class="section intro fade-in">
+        <div class="container two-col">
+          <div>
+            <p class="eyebrow">Brand Introduction</p>
+            <h2>Rooted in Tradition, Designed for the Present</h2>
+            <p>
+              Rajat Viraasat celebrates India’s rich silversmithing traditions with a modern
+              editorial perspective. Every creation reflects artisanal precision and the quiet
+              poetry of heritage objects passed through generations.
+            </p>
+          </div>
+          <div class="card glass">
+            <h3>Our Philosophy</h3>
+            <p>
+              We preserve authenticity while embracing contemporary expression—bringing
+              culturally meaningful silver craftsmanship into serene, modern lifestyles.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section heritage" id="heritage">
+        <div class="container two-col reverse fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1589987607627-1f75a5f71a5f?auto=format&fit=crop&w=1000&q=80"
+            alt="Indian artisan detailing silver craft"
+            class="rounded-img"
+          />
+          <div id="craft">
+            <p class="eyebrow">Heritage & Craftsmanship</p>
+            <h2>Centuries of Silversmithing Excellence</h2>
+            <p>
+              From temple motifs to regal filigree work, our craft is inspired by regional
+              traditions across Rajasthan, Gujarat, and Tamil Nadu. Techniques are practiced
+              by master karigars who shape each detail by hand.
+            </p>
+            <ul class="minimal-list">
+              <li>Hand-engraving and repoussé precision</li>
+              <li>Traditional motifs with contemporary restraint</li>
+              <li>Ethically curated artisan collaborations</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section collections" id="collections">
+        <div class="container fade-in">
+          <p class="eyebrow">Signature Collections</p>
+          <h2>Informative Showcase</h2>
+          <div class="collection-grid">
+            <article class="collection-card">
+              <h3>Silver Jewellery</h3>
+              <p>Graceful adornments blending intricate Indian detailing with minimal modern silhouettes.</p>
+            </article>
+            <article class="collection-card">
+              <h3>Pooja Articles</h3>
+              <p>Sacred objects crafted with spiritual symbolism and enduring ritual relevance.</p>
+            </article>
+            <article class="collection-card">
+              <h3>Antique Silver</h3>
+              <p>Heirloom-inspired forms that honor vintage artistry and timeless decorative value.</p>
+            </article>
+            <article class="collection-card">
+              <h3>Luxury Gifting</h3>
+              <p>Meaningful silver keepsakes curated for celebrations, milestones, and ceremonial gifting.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlight-strip fade-in">
+        <div class="container strip-grid">
+          <div><strong>75+</strong><span>Years of Legacy</span></div>
+          <div><strong>120</strong><span>Master Artisans</span></div>
+          <div><strong>4</strong><span>Signature Craft Lines</span></div>
+          <div><strong>1</strong><span>Immersive Flagship Showroom</span></div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="container fade-in">
+          <p class="eyebrow">Elegant Gallery</p>
+          <h2>Visual Notes in Silver</h2>
+          <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80" alt="Silver jewellery display" />
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=900&q=80" alt="Detailed silver ornaments" />
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80" alt="Traditional crafted silver pieces" />
+            <img src="https://images.unsplash.com/photo-1589987607627-1f75a5f71a5f?auto=format&fit=crop&w=900&q=80" alt="Silver artisan at work" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section showroom" id="showroom">
+        <div class="container two-col fade-in">
+          <div>
+            <p class="eyebrow">Showroom Experience</p>
+            <h2>A Serene Space for Curated Discovery</h2>
+            <p>
+              Our showroom is designed as a calm narrative journey—where you can understand
+              craftsmanship, explore heritage-inspired forms, and engage with silver traditions
+              through guided storytelling.
+            </p>
+            <p class="address">Civil Lines, Jaipur · By Appointment & Walk-In</p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=80"
+            alt="Modern luxury showroom interior"
+            class="rounded-img"
+          />
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container fade-in">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Voices of Appreciation</h2>
+          <div class="testimonial-grid">
+            <blockquote>
+              “An exceptional blend of authenticity and modern presentation. Every piece tells a story.”
+              <cite>— Cultural Curator, Delhi</cite>
+            </blockquote>
+            <blockquote>
+              “The showroom experience feels like stepping into a living archive of Indian silver artistry.”
+              <cite>— Design Consultant, Mumbai</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>Rajat Viraasat</h3>
+          <p>Timeless Indian Silver Heritage</p>
+        </div>
+        <div>
+          <p>hello@rajatviraasat.com</p>
+          <p>+91 98765 43210</p>
+          <p>Jaipur, Rajasthan, India</p>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">◯</a>
+          <a href="#" aria-label="Pinterest">◯</a>
+          <a href="#" aria-label="YouTube">◯</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Rajat Viraasat. All rights reserved.</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
 </html>
